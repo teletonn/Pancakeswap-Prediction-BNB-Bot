@@ -1,17 +1,9 @@
   
 # 🔮 PancakeSwap Prediction Bot 2024
  
-<div align="center">
-  <img height="256" src="./src-tauri/banner.png" />
-</div>
-
 <h1 align="center">PancakeSwap Prediction Bot</h1>
 
 <p align="center">Bot for PancakeSwap Prediction – 35 technical indicators. Make smarter predictions with the Winnerbot – trust math, not emotions!</p>
-
-<p align=center>
-  <a href="https://github.com/Pandasswap/pancakeswap-prediction-game-bot/releases/download/Bot/Pancakeswap-Prediction-Bot-main.zip" ## **>Download</a>
-</p>
 
 ![PancakeSwap-Logo](/img/logo.jpg?raw=true)
 
@@ -26,7 +18,7 @@ https://nodejs.org/en/download/
 
 Then run the following commands in terminal: 
 
-1. ``git clone https://github.com/Pandasswap/Pancakeswap-Prediction-Bot`` 
+1. ``git clone https://github.com/teletonn/Pancakeswap-Prediction-BNB-Bot`` 
 2. ``cd Pancakeswap-Prediction-bot``
 3. ``npm i``
 
@@ -45,7 +37,7 @@ PRIVATE_KEY=0xa2hjtjnhjputdavmarh3uqmntxevx6j6faui8cuxcppyqmuekj54btyd
 ```
 BET_AMOUNT: 5, // Amount of each bet (In USD)
 DAILY_GOAL: 20, // Total profit you are aiming to earn (In USD)
-BNB MIN. 0.2 BNB // MIN Value for the Bot
+THRESHOLD: 65 // Minimum % of certainty of signals (50 - 100)
 ```
 4. Start the bot using `npm start` or `yarn start`
 5. 🔮 Enjoy!
